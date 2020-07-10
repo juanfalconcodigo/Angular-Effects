@@ -1,4 +1,11 @@
-<div class="card-columns">
+<div class="alert alert-warning d-flex justify-content-center align-items-center" role="alert" *ngIf="loading">
+    <i class="fas fa-circle-notch fa-spin fa-5x"></i>
+</div>
+<div class="alert alert-danger d-flex flex-column justify-content-center align-items-center" role="alert" *ngIf="error">
+    <div><i class="fas fa-bomb fa-5x"></i></div>
+    <p>{{error|json}}</p>
+</div>
+<div class="card-columns" *ngIf="!loading">
     <div class="card" *ngFor="let user of users">
         <img [src]="user.avatar" class="card-img-top" alt="Image">
         <div class="card-body">

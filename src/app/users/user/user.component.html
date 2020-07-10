@@ -1,1 +1,12 @@
-<p>user works!</p>
+<div class="w-100 d-flex justify-content-center align-items-center">
+    <div class="card" style="width: 18rem;" *ngIf="user">
+        <img [src]="user.avatar" class="card-img-top" alt="imag">
+        <div class="card-body">
+            <h5 class="card-title">Name :{{user.first_name}}</h5>
+            <p class="card-text">LastName :{{user.last_name}}</p>
+            <p class="card-text">Id :{{user.id}}</p>
+            <p class="card-text">Email :{{user.email}}</p>
+        </div>
+    </div>
+
+</div>
