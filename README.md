@@ -29,4 +29,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Referential Image 
 
 > ![Image Referential](https://res.cloudinary.com/dbxg3ojl8/image/upload/v1594265231/effects_ypi19y.png)
+![Image Referential](https://res.cloudinary.com/dbxg3ojl8/image/upload/v1594402367/ngrx-effects_j9m97z.png)
 Juan Diego Falcón Córdova ( ***Web Developer*** - :computer::man: )
